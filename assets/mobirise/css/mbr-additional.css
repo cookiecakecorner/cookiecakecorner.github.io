@@ -745,6 +745,7 @@ a {
 }
 .cid-shZnjHWmHh H1 {
   text-align: center;
+  color: #1b3b6f;
 }
 .cid-shd6oHi7qf {
   padding-top: 5rem;
@@ -1541,12 +1542,7 @@ a {
   padding-bottom: 2rem;
 }
 .cid-sgXjbn5Bvc .item-wrapper {
-  height: 300px;
   position: relative;
-}
-.cid-sgXjbn5Bvc .item-wrapper img {
-  height: 100%;
-  object-fit: cover;
 }
 .cid-sgXjbn5Bvc .item-wrapper .icon-wrapper {
   pointer-events: none;
