@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Cookie Cake Corner",
-    "currentPage": "about.html",
+    "currentPage": "contact.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -70,7 +70,7 @@
     "versionPublish": "5.2.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
-    "favicon": false,
+    "favicon": "@PROJECT_PATH@/assets/images/126144578-790955731749705-3295473691576628063-n1-128x128-1.png",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -83,7 +83,8 @@
     "contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 5
+        "order": 5,
+        "meta_descr": "Ask a question, schedule a free consultation, or request a cookie cake order."
       },
       "components": [
         {
@@ -777,7 +778,8 @@
     "gallery.html": {
       "settings": {
         "title": "Gallery",
-        "order": 3
+        "order": 3,
+        "meta_descr": "Every cake I make is uniquely hand-drawn, but we can pull inspiration from past creations when designing your own cake."
       },
       "components": [
         {
@@ -1207,11 +1209,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"8\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Gallery of Past Cakes</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">These cakes are gone! Every cake I make is uniquely hand-drawn, but we can draw inspiration from these past creations when designing your own cake.</h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "slVSwSUfD8",
+          "_anchor": "content4-2p",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-2p"
+          "_params": {}
         },
         {
           "alias": false,
@@ -1832,7 +1834,8 @@
     "pricing.html": {
       "settings": {
         "title": "Pricing",
-        "order": 4
+        "order": 4,
+        "meta_descr": "Each cookie cake order includes your custom design, three colors of frosting, and a photo for confirmation before pickup or delivery."
       },
       "components": [
         {
@@ -2551,7 +2554,8 @@
     "about.html": {
       "settings": {
         "title": "About",
-        "order": 2
+        "order": 2,
+        "meta_descr": "How to order cookie cakes from Cookie Cake Corner."
       },
       "components": [
         {
@@ -3309,7 +3313,7 @@
       "settings": {
         "main": true,
         "title": "Home",
-        "meta_descr": "",
+        "meta_descr": "Local Austin home bakery offering affordable custom cookie cakes for any occasion.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
